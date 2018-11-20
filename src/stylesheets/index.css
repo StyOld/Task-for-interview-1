@@ -1,37 +1,16 @@
-body {
-  background: #fdfdfd;
+.content {
+  /*flex: 1 0 auto;*/
+  margin-top: auto;
+  /*flex: 1;*/
 }
 
-.form-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 460px;
+.footer {
+  flex-shrink: 0;
+  background: darkgray;
 }
 
-.invalid-feedback {
-  display: block;
-}
-
-.circle-active {
-  width: 45px;
-  height: 45px;
-  line-height: 38px;
-  background: grey;
-  margin: 1em;
-  border-radius: 50%;
-  border: 4px solid #fff;
-  text-align: center;
-}
-
-.circle-noactive {
-  width: 45px;
-  height: 45px;
-  line-height: 38px;
-  background: #19ddfe;
-  margin: 1em;
-  border-radius: 50%;
-  text-align: center;
-  border: 4px solid #f26120;
-}
+/*.Site {*/
+  /*display: flex;*/
+  /*min-height: 100vh;*/
+  /*flex-direction: column;*/
+/*}*/
