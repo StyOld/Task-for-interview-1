@@ -9,8 +9,12 @@
   background: darkgray;
 }
 
-* {
-  font-family: Roboto, sans-serif;
+/*body {*/
+  /*font-family: Roboto, sans-serif;*/
+/*}*/
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 @font-face {
@@ -23,6 +27,18 @@
   font-weight: normal;
   font-style: italic;
 }
+
+/*@font-face {*/
+  /*font-family: 'Roboto';*/
+  /*font-style: italic;*/
+  /*font-display: swap;*/
+  /*font-weight: 100;*/
+  /*src:*/
+          /*local('Roboto Thin italic'),*/
+          /*local('Roboto-Thinitalic'),*/
+          /*url('./files/roboto-latin-100italic.woff2') format('woff2'), !* Super Modern Browsers *!*/
+          /*url('./files/roboto-latin-100italic.woff') format('woff'); !* Modern Browsers *!*/
+/*}*/
 
 /*@font-face {*/
   /*font-family: 'Roboto';*/
