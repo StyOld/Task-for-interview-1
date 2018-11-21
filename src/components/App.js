@@ -41,7 +41,7 @@ export default class App extends React.Component {
         const {toggle, randomNumber}=this.state;
 
         return (
-            <div>
+            <div className='wrapper'>
                 <Header
                     toggle={toggle}
                     toggleLeftSidebar={this.toggleLeftSidebar}

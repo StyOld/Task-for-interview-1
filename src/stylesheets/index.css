@@ -1,11 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 .content {
   flex: 1 0 auto;
-  margin-top: auto;
-  /*flex: 1;*/
 }
 
 .footer {
-  flex-shrink: 0;
+  /*flex-shrink: 0;*/
+  flex: 0 0 auto;
   background: darkgray;
 }
 
@@ -13,9 +34,9 @@
   /*font-family: Roboto, sans-serif;*/
 /*}*/
 
-body {
-  font-family: 'Roboto', sans-serif;
-}
+/*body {*/
+  /*font-family: 'Roboto', sans-serif;*/
+/*}*/
 
 @font-face {
   font-family: 'Roboto';
