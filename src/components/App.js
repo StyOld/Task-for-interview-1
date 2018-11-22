@@ -6,7 +6,7 @@ export default class App extends React.Component {
     constructor() {
         super();
         this.state = {
-            toggle: true,
+            toggle: false,
             randomNumber: 0
         };
     };
@@ -40,16 +40,16 @@ export default class App extends React.Component {
 
         return (
             <div className='wrapper'>
-                <Header
-                    toggle={toggle}
-                    toggleLeftSidebar={this.toggleLeftSidebar}
-                />
-                <Content
-                    toggle={toggle}
-                    randomNumber={randomNumber}
-                    getRandomNumber={this.getRandomNumber}
-                    stopRandom={this.stopRandom}
-                />
+                    <Header
+                        toggle={toggle}
+                        toggleLeftSidebar={this.toggleLeftSidebar}
+                    />
+                    <Content
+                        toggle={toggle}
+                        randomNumber={randomNumber}
+                        getRandomNumber={this.getRandomNumber}
+                        stopRandom={this.stopRandom}
+                    />
                 <div className="card-footer text-muted footer">
                     <h5 className='font-weight-bold'>Footer</h5>
                 </div>

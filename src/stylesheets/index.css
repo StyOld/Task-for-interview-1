@@ -3,14 +3,11 @@
   padding: 0;
 }
 
-html {
+#root{
   height: 100%;
-  font-family: 'Roboto', sans-serif;
 }
 
-body {
-  /*display: flex;*/
-  /*flex-direction: column;*/
+html, body {
   height: 100%;
 }
 
@@ -21,19 +18,15 @@ body {
 }
 
 .content {
-  flex: 1 0 auto;
+  flex: 0 0 auto;
 }
 
 .footer {
-  /*flex-shrink: 0;*/
-  flex: 0 0 auto;
+  flex: 1 0 auto;
   background: darkgray;
 }
 
-/*body {*/
-  /*font-family: Roboto, sans-serif;*/
-/*}*/
-
+/*font-family: 'Roboto', sans-serif;*/
 @font-face {
   font-family: 'Roboto';
   src: url('fonts/Roboto-Italic-webfont.eot');
@@ -51,10 +44,10 @@ body {
   /*font-display: swap;*/
   /*font-weight: 100;*/
   /*src:*/
-          /*local('Roboto Thin italic'),*/
-          /*local('Roboto-Thinitalic'),*/
-          /*url('./files/roboto-latin-100italic.woff2') format('woff2'), !* Super Modern Browsers *!*/
-          /*url('./files/roboto-latin-100italic.woff') format('woff'); !* Modern Browsers *!*/
+  /*local('Roboto Thin italic'),*/
+  /*local('Roboto-Thinitalic'),*/
+  /*url('./files/roboto-latin-100italic.woff2') format('woff2'), !* Super Modern Browsers *!*/
+  /*url('./files/roboto-latin-100italic.woff') format('woff'); !* Modern Browsers *!*/
 /*}*/
 
 /*@font-face {*/
@@ -154,10 +147,4 @@ body {
   /*url('Roboto-MediumItalic-webfont.svg#RobotoMediumItalic') format('svg');*/
   /*font-weight: 300;*/
   /*font-style: italic;*/
-/*}*/
-
-/*.Site {*/
-/*display: flex;*/
-/*min-height: 100vh;*/
-/*flex-direction: column;*/
 /*}*/
