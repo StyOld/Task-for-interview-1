@@ -12,10 +12,8 @@ export default class App extends React.Component {
     };
 
     forceRandom = () => {
-        let begin = 0;
-        let end = 1000;
         this.setState({
-            randomNumber: Math.round(begin+Math.random()*(end-begin))
+            randomNumber: Math.round(Math.random()*1000)
         });
     };
 
@@ -34,7 +32,7 @@ export default class App extends React.Component {
     };
 
     componentDidMount() {
-        this.timerID = setInterval(() => this.forceRandom(), 2500);
+        this.timerID = setInterval(this.forceRandom, 2500);
     };
 
     render() {
