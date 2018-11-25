@@ -40,6 +40,7 @@ export default class App extends React.Component {
 
         return (
             <div className='wrapper'>
+                <div className='content'>
                     <Header
                         toggle={toggle}
                         toggleLeftSidebar={this.toggleLeftSidebar}
@@ -50,7 +51,8 @@ export default class App extends React.Component {
                         getRandomNumber={this.getRandomNumber}
                         stopRandom={this.stopRandom}
                     />
-                <div className="card-footer text-muted footer">
+                </div>
+                <div className="text-muted footer">
                     <h5 className='font-weight-bold'>Footer</h5>
                 </div>
             </div>

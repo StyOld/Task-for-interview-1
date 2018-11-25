@@ -14,7 +14,14 @@ export default class Header extends React.Component {
                     >
                         {toggle ? "Hide" : "Show"}
                     </button>
-                </div>
+                    <div className={`col-4 border sidebar ${toggle ? 'show' : ''}`}>
+                            {[...Array(15)].map((x, i) =>
+                                <p key={i} className='text-center'>
+                                    Left SideBar
+                                </p>
+                            )}
+                        </div>
+                    </div>
         )
     }
 }

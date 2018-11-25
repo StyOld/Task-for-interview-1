@@ -18,12 +18,26 @@ html, body {
 }
 
 .content {
-  flex: 0 0 auto;
+  flex: 1;
 }
 
 .footer {
-  flex: 1 0 auto;
+  /*flex: 1 0 auto;*/
   background: darkgray;
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  z-index: 1;
+  display: block;
+  background: darkgray;
+  transition: left 0.5s;
+}
+
+.sidebar.show {
+  left: 0;
 }
 
 /*font-family: 'Roboto', sans-serif;*/
